@@ -1,0 +1,1805 @@
+#!/u/scigroup/radcon/flair/flair
+# FLUKA Project file
+Version: 2
+Title: 
+Input: activity_in_water_single_coil.inp
+Exec: activity_in_water.exe
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Flair
+Source: solid_flux_new2.f
+DefMain: True
+LinkPrg: ldpmqmd
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 0
+	Family:  activity_in_water_single_coil_aa activity_in_water_single_coil_ab activity_in_water_single_coil_ac activity_in_water_single_coil_ad activity_in_water_single_coil_ae activity_in_water_single_coil_af activity_in_water_single_coil_ag activity_in_water_single_coil_ah activity_in_water_single_coil_ai activity_in_water_single_coil_aj activity_in_water_single_coil_ak activity_in_water_single_coil_al activity_in_water_single_coil_am activity_in_water_single_coil_an activity_in_water_single_coil_ao activity_in_water_single_coil_ap activity_in_water_single_coil_aq activity_in_water_single_coil_ar activity_in_water_single_coil_as activity_in_water_single_coil_at activity_in_water_single_coil_au activity_in_water_single_coil_av activity_in_water_single_coil_aw activity_in_water_single_coil_ax activity_in_water_single_coil_ay activity_in_water_single_coil_az activity_in_water_single_coil_ba activity_in_water_single_coil_bb activity_in_water_single_coil_bc activity_in_water_single_coil_bd activity_in_water_single_coil_be activity_in_water_single_coil_bf activity_in_water_single_coil_bg activity_in_water_single_coil_bh activity_in_water_single_coil_bi activity_in_water_single_coil_bj
+
+	# USRxxx data file: activity_in_water_single_coil_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_aa
+	Rnd:      1
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_aa_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aa_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aa_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ab
+	Rnd:      2
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ab_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ab_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ab_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ac
+	Rnd:      3
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ac_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ac_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ac_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ad
+	Rnd:      4
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ad_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ad_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ad_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ae
+	Rnd:      5
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ae_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ae_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ae_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_af
+	Rnd:      6
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_af_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_af_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_af_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ag
+	Rnd:      7
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ag_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ag_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ag_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ah
+	Rnd:      8
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ah_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ah_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ah_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ai
+	Rnd:      9
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ai_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ai_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ai_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_aj
+	Rnd:      10
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_aj_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aj_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aj_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ak
+	Rnd:      11
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ak_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ak_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ak_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_al
+	Rnd:      12
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_al_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_al_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_al_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_am
+	Rnd:      13
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_am_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_am_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_am_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_an
+	Rnd:      14
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_an_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_an_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_an_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ao
+	Rnd:      15
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ao_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ao_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ao_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ap
+	Rnd:      16
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ap_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ap_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ap_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_aq
+	Rnd:      17
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_aq_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aq_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aq_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ar
+	Rnd:      18
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712423
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ar_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ar_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ar_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_as
+	Rnd:      19
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_as_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_as_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_as_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_at
+	Rnd:      20
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_at_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_at_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_at_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_au
+	Rnd:      21
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_au_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_au_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_au_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_av
+	Rnd:      22
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_av_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_av_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_av_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_aw
+	Rnd:      23
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_aw_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aw_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_aw_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ax
+	Rnd:      24
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ax_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ax_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ax_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ay
+	Rnd:      25
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ay_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ay_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ay_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_az
+	Rnd:      26
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_az_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_az_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_az_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_ba
+	Rnd:      27
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_ba_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ba_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_ba_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bb
+	Rnd:      28
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bb_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bb_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bb_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bc
+	Rnd:      29
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bc_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bc_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bc_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bd
+	Rnd:      30
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bd_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bd_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bd_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_be
+	Rnd:      31
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_be_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_be_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_be_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bf
+	Rnd:      32
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bf_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bf_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bf_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bg
+	Rnd:      33
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bg_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bg_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bg_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bh
+	Rnd:      34
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bh_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bh_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bh_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bi
+	Rnd:      35
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bi_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bi_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bi_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Run information
+Run: activity_in_water_single_coil_bj
+	Rnd:      36
+	Prev:     0
+	Last:     1
+	Status:   3
+	Pid:      0
+	StartRun: 1675712424
+	Parent:    <default>
+
+	# USRxxx data file: activity_in_water_single_coil_bj_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bj_23.bnx
+	Data: \I_\U.\e
+		Unit: 23
+		Type: x
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: activity_in_water_single_coil_bj_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Material
+Material: DIRT
+	alpha: 0
+	color: #2010B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: NIOBIUM
+	alpha: 0
+	color: #7030D0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: POTASSIU
+	alpha: 0
+	color: #70B0B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: YOKE
+	alpha: 0
+	color: #303070
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: SS304L
+	alpha: 0
+	color: #20B070
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: DIRTFNAL
+	alpha: 0
+	color: #50D010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MANGANES
+	alpha: 0
+	color: #B050D0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Geometry Information
+Geometry:
+	Frame.bsplit: 0.5
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.5
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 3.7561 2.32654
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: -0.22597 -0.441866 0
+	subtype: Material
+	title: GeoViewer Red plot
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	zlog: 0
+	ztics: 0
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 7.78866 4.82432
+	labels: 1
+	layer: Media
+	origin: -0.431805 0 3.5723
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 3.7561 2.32654
+	labels: 1
+	layer: Media
+	origin: 0 -7.1522 -0.445796
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 61.9403
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+End
+
+# USRBIN plot "USRBIN activity in water 21"
+Plot: activity_in_water_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: 1
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_21.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 39895288.182787202
+	lw.0: 0
+	max: 6999.17383
+	min: 6999.17383
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN activity in water 21
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xrebin: 1
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	yrebin: 1
+	zlog: 0
+	zrebin: 5
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN activity in water 21"
+Plot: activity_in_water_21_plot01
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: 1
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_21.bnn
+	det: 3
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 8967787914.5175877
+	lw.0: 0
+	max: 1573296.12
+	min: 1573296.12
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN activity in water 21
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xrebin: 1
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	yrebin: 1
+	zlog: 0
+	zrebin: 5
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN activity in water 21"
+Plot: activity_in_water_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_21.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 0.0000000000000000
+	lw.0: 0
+	max: 0.00000000
+	min: 1.00000002E+30
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN activity in water 21
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xrebin: 1
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	yrebin: 1
+	zlog: 0
+	zrebin: 1
+	ztics: 0
+End
+
+# USR-1D plot "USR-1D activity in water 23"
+Plot: activity_in_water_23_plot
+	Format: .eps
+	Type:   USR-1D
+	block.0: 0
+	cbcolors: 0
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	det.0: 0
+	file.0: activity_in_water_23_tab.lis
+	grid: 0
+	index: 0
+	key.0: 1
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	ps.0: 1
+	pt.0: 0
+	show.0: 1
+	title: USR-1D activity in water 23
+	with.0: histerror
+	x.0: 2
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xmin: 0.02
+	y.0: 2
+	y2log: 0
+	y2tics: 0
+	ylog: 1
+	zlog: 0
+	ztics: 0
+End
+
+# RESNUCLE plot "Plot #8"
+Plot: activity_in_water_plot08
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_25.rnc
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: Plot #8
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	zlog: 0
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN activity in water single coil 21"
+Plot: activity_in_water_single_coil_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: 1
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_single_coil_21.bnn
+	det: 3
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 1
+	int: 2206142080.4763532
+	lw.0: 0
+	max: 86455752.0
+	min: 86455752.0
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN activity in water single coil 21
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xrebin: 1
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	yrebin: 1
+	zlog: 0
+	zrebin: 5
+	ztics: 0
+End
+
+# USR-1D plot "USR-1D activity in water single coil 23"
+Plot: activity_in_water_single_coil_23_plot
+	Format: .eps
+	Type:   USR-1D
+	block.0: 0
+	cbcolors: 0
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	det.0: 0
+	file.0: activity_in_water_single_coil_23_tab.lis
+	grid: 0
+	index: 0
+	key.0: 1
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	ps.0: 1
+	pt.0: 0
+	show.0: 1
+	title: USR-1D activity in water single coil 23
+	with.0: histerror
+	x.0: 2
+	x2log: 0
+	x2tics: 0
+	xlog: 1
+	y.0: 0
+	y2log: 0
+	y2tics: 0
+	ylog: 1
+	zlog: 0
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE activity in water single coil 25"
+Plot: activity_in_water_single_coil_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: 0
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: activity_in_water_single_coil_25.rnc
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
+	title: RESNUCLE activity in water single coil 25
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	zlog: 0
+	ztics: 0
+End
+
+# USRBIN plot "Plot #13"
+Plot: activity_in_water_coil_plot13
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	bxmax: 0.45
+	bxmin: -0.45
+	cbcolors: 30
+	cblog: False
+	cbmax: 0.012
+	cbmin: 0.011
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: activity_in_water_single_coil_21.bnn
+	det: 4
+	errors: 0
+	geo: -No-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 0.94497963576261268
+	lw.0: 0
+	max: 1.18221138E-02
+	min: 1.14726406E-02
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: Plot #13
+	with.0: errorbars
+	x2log: 0
+	x2tics: 0
+	xlog: 0
+	xrebin: 1
+	y2log: 0
+	y2tics: 0
+	ylog: 0
+	yrebin: 1
+	zlog: 0
+	zrebin: 1
+	ztics: 0
+End

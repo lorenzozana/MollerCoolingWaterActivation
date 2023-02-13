@@ -1,0 +1,133 @@
+TITLE
+
+#define gainstep 4.0
+#define EBeam 0.010
+#define TotHours 500000
+#define RunHours 500000
+#define BeamPowr 1.
+#define BeamCurr 6.66666666667
+GLOBAL                                                                OLDFLAIR
+*
+* Set the defaults for precision simulations
+DEFAULTS                                                              PRECISIO
+OPEN             20.                                                  OLD
+solenoid_avg2.dat
+* Define the beam characteristics
+BEAM          $EBeam                           50.       50.        1.NEUTRON
+BEAMPOS          0.0      -1.0       0.0       0.0       1.0
+SOURCE           20.
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 100000.
+* Void sphere
+SPH void       0.0 0.0 0.0 20000.
+RPP Cop        -60. 60. -60. 60. -0.45 0.45
+RPP Wat        -55. 55. -55. 55. -0.285 0.285
+RCC Wat_c      0.0 0.0 -55. 0.0 0.0 110. 0.285
+RPP Cop_c      -0.45 0.45 -0.45 0.45 -60. 60.
+* Tube in
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -Cop_c
+Copper       5 +Cop_c -Wat_c
+Water        5 +Wat_c
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+*
+MATERIAL                             2.3                              CONCRETE
+MAT-PROP                      121.743341  CONCRETE
+COMPOUND       -0.01  HYDROGEN    -0.001    CARBON  -0.52917    OXYGENCONCRETE
+COMPOUND      -0.016    SODIUM    -0.002  MAGNESIU -0.033872  ALUMINUMCONCRETE
+COMPOUND   -0.337021   SILICON    -0.013  POTASSIU    -0.044   CALCIUMCONCRETE
+COMPOUND      -0.014      IRON                                        CONCRETE
+*
+MATERIAL                             1.9                              DIRT
+MATERIAL                            7.87                              YOKE
+COMPOUND    0.004631    CARBON  0.001981   SILICON   0.00405  MANGANESYOKE
+COMPOUND    0.978111      IRON  0.009477    NICKEL  0.001751    COPPERYOKE
+MAT-PROP                         112.098      DIRT
+COMPOUND       0.021  HYDROGEN     0.016    CARBON     0.577    OXYGENDIRT
+COMPOUND        0.05  ALUMINUM     0.271   SILICON     0.013  POTASSIUDIRT
+COMPOUND       0.041   CALCIUM     0.011      IRON                    DIRT
+MATERIAL         19.               0.862                              POTASSIU
+MATERIAL                            7.83                              SS304L
+COMPOUND    -0.69855      IRON      -.18  CHROMIUM      -.09    NICKELSS304L
+COMPOUND       -0.02  MANGANES     -0.01   SILICON   -4.5E-4   PHOSPHOSS304L
+COMPOUND      -3.E-4    SULFUR    -8.E-4    CARBON                    SS304L
+MATERIAL         24.                7.18                              CHROMIUM
+MATERIAL         25.                7.44                              MANGANES
+MATERIAL         41.                8.57                              NIOBIUM
+MATERIAL         15.                 2.2                              PHOSPHO
+MATERIAL         16.                  2.                              SULFUR
+*
+MATERIAL                            2.24                              DIRTFNAL
+COMPOUND      0.3091  HYDROGEN    0.4909    OXYGEN    0.0364  ALUMINUMDIRTFNAL
+COMPOUND      0.1636   SILICON                                        DIRTFNAL
+LOW-MAT     HYDROGEN        1.       -2.      296.                    HYDROGEN
+LOW-MAT       CARBON        6.       -2.      296.                    CARBON
+*
+*
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA      VACUUM      VOID
+ASSIGNMA      COPPER    Copper
+ASSIGNMA       WATER     Water
+*
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+PHYSICS           3.                         MUON+     MUON-        1.DECAYS
+PHYSICS           3.                         PION+    PIZERO        1.DECAYS
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS           1.                                                  COALESCE
+PHYSICS           1.                                                  INFLDCAY
+PHYSICS           1.                                                  ISOMERS
+*PHYSICS           1.                                                  QUASI-EL
+*
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+IONTRANS    HEAVYION
+MUPHOTON          1.                      BLCKHOLE  @LASTMAT
+PAIRBREM          3.       0.0    0.0003  BLCKHOLE  @LASTMAT
+PHOTONUC          1.                      BLCKHOLE  @LASTMAT
+PHOTONUC          1.                      BLCKHOLE  @LASTMAT          ELECTNUC
+PHOTONUC       1111.      0.02            BLCKHOLE  @LASTMAT          MUMUPAIR
+* 344 PAC days at 65muA
+IRRPROFI   20000000. 2.0325E14 11536000.       0.0 20000000. 2.0325E14
+* 344 PAC days at 65muA
+IRRPROFI   11536000.       0.0 20000000. 2.0325E14
+* Defines decay times for radioactive product scoring
+DCYTIMES         0.0     3600.    43200.    86400.   604800.  2629800.
+* Requests simulation of radioactive decays and sets the corresponding
+* biasing and transport conditions
+RADDECAY          1.       -1.        3.100000000.   1001000
+USRBDX            1.   NEUTRON      -23.      VOID    Copper          Espec
+USRBDX         0.250      0.01      249.                            1. &
+USRBIN            1.  ACTIVITY      -21.     0.285       0.0       50.Tritium
+USRBIN           0.0       0.0      -50.        1.        1.        5. &
+USRBIN            1.  ACTIVITY      -21.     0.285       0.0       50.Na22
+USRBIN           0.0       0.0      -50.        1.        1.        5. &
+USRBIN            1.  ACTIVITY      -21.     0.285       0.0       50.Be7
+USRBIN            0.       0.0      -50.        1.        1.        5. &
+USRBIN           10.   NEUTRON      -21.      0.45      0.45       50.N_flux
+USRBIN         -0.45     -0.45      -50.        5.        1.        5. &
+DCYSCORE          1.                       Tritium       Be7          USRBIN
+AUXSCORE      USRBIN  -300100.             Tritium   Tritium
+AUXSCORE      USRBIN -2201100.                Na22      Na22
+AUXSCORE      USRBIN  -700400.                 Be7       Be7
+RESNUCLE          3.      -25.                         Water          W_act
+*
+LAM-BIAS                  0.02              PHOTON    PHOTON
+LAM-BIAS                  0.01            POSITRON  POSITRON
+LAM-BIAS                  0.01            ELECTRON  ELECTRON
+LAM-BIAS                 0.003               MUON+     MUON+
+LAM-BIAS                 0.003               MUON-     MUON-
+*EMF-BIAS        254.       11.       11.   BLKBODY  @LASTREG          LPBEMF
+*
+* Set the random number seed
+RANDOMIZ          1.
+* Set the number of primary histories to be simulated in the run
+START      10000000.
+STOP
+DCYSCORE          1.                         W_act     W_act          RESNUCLE
+STOP
